@@ -86,4 +86,6 @@ O uso de token foi implementado para demonstrar conhecimento em autenticação.
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/desafio-qa-api-tests.git
+git clone https://github.com/lucilenebruneli/desafioqesicredi-api-tests.git
+
+
