@@ -98,23 +98,21 @@ git clone https://github.com/lucilenebruneli/desafioqesicredi-api-tests.git
 mvn clean test
 
 3️⃣ Gerar e visualizar relatório Allure
-Instalação do Allure
-Baixe o Allure Commandline para Windows no site oficial:
-Allure Framework
+
+Instalação do Allure:
+Baixe o Allure Commandline para Windows no site oficial
 Extraia em uma pasta, por exemplo: C:\allure
 Configure as variáveis de ambiente:
 ALLURE_HOME = C:\allure
 Adicione C:\allure\bin ao Path
-Teste no terminal:
-allure --version
+Teste no terminal: allure --version
 
 Deve retornar a versão instalada.
 
 Gerar o relatório
 
-Após rodar os testes com Maven:
+Após rodar os testes com Maven: allure serve target/allure-results
 
-allure serve target/allure-results
 Isso abrirá o relatório no navegador
 Mostra detalhes dos testes, requests, responses e status de cada cenário
 teste.
