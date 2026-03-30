@@ -18,7 +18,7 @@ O objetivo é validar endpoints de uma API REST, cobrindo **cenários positivos,
 
 ## Estrutura do Projeto
 
-'''text
+''' 
 src
 └── test
 └── java
@@ -31,6 +31,7 @@ src
 └── tests
 ├── ProductTest.java
 └── AuthTest.java
+'''
 
 
 ### Descrição das camadas
