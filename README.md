@@ -92,6 +92,7 @@ src
 
 ```bash
 git clone https://github.com/lucilenebruneli/desafioqesicredi-api-tests.git
+'''
 
 2️⃣ Rodar os testes com Maven
 mvn clean test
@@ -116,14 +117,8 @@ Após rodar os testes com Maven:
 allure serve target/allure-results
 Isso abrirá o relatório no navegador
 Mostra detalhes dos testes, requests, responses e status de cada cenário
-Dicas para Allure
-Para capturar requests/responses no relatório:
-given().filter(new AllureRestAssured())
-Para adicionar steps, descrição e gravidade:
-@Step("Descrição do passo")
-@Description("Descrição detalhada do teste")
-@Severity(SeverityLevel.CRITICAL)
+teste.
 
-Esses elementos vão aparecer diretamente no relatório, facilitando análise.
+
 
 
