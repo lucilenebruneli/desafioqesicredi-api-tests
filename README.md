@@ -15,20 +15,21 @@ O objetivo é validar endpoints de uma API REST, cobrindo cenários positivos, n
 
 ---
 
-## Estrutura do projeto
+### Estrutura do Projeto
 
+```text
 src
- └── test
- └── java
- ├── base
- │     └── BaseTest.java
- ├── services
- │     ├── ProductService.java
- │     ├── AuthService.java
- │     └── TokenManager.java
- └── tests
- ├── ProductTest.java
- └── AuthTest.java
+└── test
+    └── java
+        ├── base
+        │     └── BaseTest.java
+        ├── services
+        │     ├── ProductService.java
+        │     ├── AuthService.java
+        │     └── TokenManager.java
+        └── tests
+              ├── ProductTest.java
+              └── AuthTest.java
 
 ### Descrição das camadas
 
