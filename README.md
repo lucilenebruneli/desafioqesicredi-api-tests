@@ -92,7 +92,7 @@ src
 
 ```bash
 git clone https://github.com/lucilenebruneli/desafioqesicredi-api-tests.git
-'''
+```
 
 2️⃣ Rodar os testes com Maven
 mvn clean test
